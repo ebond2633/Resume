@@ -1,0 +1,61 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 10%;
+  padding: 10px;
+  font-weight: 100;
+  background-color: lightblue;
+  
+}
+.container {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: darkgrey;
+  justify-content: space-around;
+}
+.skilltitle {
+  table-layout: auto;
+  
+  
+}
+
+hr {
+  height: 2px;
+  border: none;
+  color: #333;
+  background-color: #333;
+}
+
+
+#skills-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.top{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h1{ 
+  margin-bottom: -16px;
+}
+
+.pro{
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
